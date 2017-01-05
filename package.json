@@ -11,9 +11,12 @@
     "errorhandler": "^1.1.1",
     "express": "^4.8.0",
     "express-session": "^1.7.2",
+    "lodash": "^4.17.4",
     "method-override": "^2.1.2",
     "morgan": "^1.2.2",
+    "mssql": "^3.3.0",
     "multer": "1.0.5",
+    "node-uuid": "^1.4.7",
     "pug": " 2.0.0-beta6",
     "request": "^2.79.0",
     "serve-favicon": "^2.0.1"
