@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.post('/webhook', upload.array(), (req, res) => {
     console.log('webhook');
     let segments = req.body.data && req.body.data.object && req.body.data.object.segments;
-    // console.log(segments);
     segments && insertRequest(segments);
     res.sendStatus(200);
 
